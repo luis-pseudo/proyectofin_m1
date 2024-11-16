@@ -31,4 +31,4 @@ aquí dejo algunas imágenes del código
 ![bymyself](https://i.imgur.com/fYlxEBM.png)
 
 honestamente, no fue difícil crear estas páginas, no tuve ningún problema con las etiquetas ni nada por el estilo, probablemente algunas imagenes no se muestren y no sé por qué (algunas están subidas a imgur.com) 
-para crear la estructura, quise emplear <section> para poder dividir en secciones, lo que probablemente me ayude al agregar CSS, ya que puedo dar estilo a secciones separadas de la estructura.
+para crear la estructura, quise emplear la etiqueta <section para poder dividir en secciones, lo que probablemente me ayude al agregar CSS, ya que puedo dar estilo a secciones separadas de la estructura.
