@@ -22,13 +22,13 @@ Los archivos que se crearon para llevar a cabo las páginas fueron ordenados en 
 
 aquí dejo algunas imágenes del código
 - index.html
-![index](https://imgur.com/e50af8af-24f7-4a18-ba13-0e42da02e17e) 
+![index](https://i.imgur.com/O1wVDD4.png) 
 
 - imgnative.html
-![imgnative](https://imgur.com/00993a1a-f1b7-4415-8488-2ffea555b190)
+![imgnative](https://i.imgur.com/QeG2gRG.png)
 
 - bymyself.html
-![bymyself](https://imgur.com/cabab39c-391b-450b-88e3-511409089334)
+![bymyself](https://i.imgur.com/fYlxEBM.png)
 
 honestamente, no fue difícil crear estas páginas, no tuve ningún problema con las etiquetas ni nada por el estilo, probablemente algunas imagenes no se muestren y no sé por qué (algunas están subidas a imgur.com) 
 para crear la estructura, quise emplear <section> para poder dividir en secciones, lo que probablemente me ayude al agregar CSS, ya que puedo dar estilo a secciones separadas de la estructura.
