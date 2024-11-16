@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mingw</title>
+</head>
+<body>
+    <header>
+        <h1><a href="/bymyself/bymyself.html">bymyself</a></h1>
+    </header>
+    <br>
+
+    <h2>como instalar un compilador de C en tu computadora?</h2>
+    <p>este es un breve tutorial para instalar un compilador de C en tu computadora windows 11 y usarlo para compilar un hola mundo en bash</p>
+    <br>
+
+    <nav>
+        <h2>índice</h2>
+        <ol>
+            <li><a href="#download">descargas</a></li>
+            <li><a href="#install">instalación</a></li>
+            <li><a href="#setup">set up</a></li>
+            <li><a href="#usage">modo de uso</a></li>
+        </ol>
+    </nav>
+
+    <h2 id="download">Descargas</h2>
+    <p>para comenzar, debes descargar MinGW-w64 desde MSYS2 haciendo clic <a href="https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe">aquí</a></p><br>
+
+    <h2 id="install">Instalación</h2>
+    <p>una vez descargado, ejecútalo<br>
+    sigue los pasos para instalarlo en tu dispositivo</p>
+    <img src="https://www.msys2.org/images/install-3-finish.png" alt="wizard"><br>
+
+    <h2 id="setup">set up</h2>
+    <p>ya que el programa haya terminado de instalarse, se abrirá una terminal de MinGW</p><br>
+    <img src="https://www.msys2.org/images/install-4-terminal-dark.png#gh-dark-mode-only" alt="terminal">
+    <p>en esta parte, debes escribir el siguiente comando y presiona enter: <br><br>
+    pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain <br><br>
+    seguido de ello, aparecerá un mensaje con todos los paquetes que se intalarán</p>
+    <img src="https://code.visualstudio.com/assets/docs/cpp/cpp/cpp-install-MSYS2-toolchain.png" alt="promp" width="500"><br>
+    <p>presiona enter. <br>
+    después, aparecerá una lista detallada de los archivos que se intalarán y el espacio que ocuparán en tu disco. para prodecer, escribe Y (debes estar conectado a internet para realizar este paso) <br>
+    los archivos deberían comenzar a descargarse. <br>
+    una vez terminado este proceso, sal de la terminal y busca "editar las variables de entorno de esta cuenta"</p>
+    <img src="https://i.imgur.com/IAaAbfC.png" alt="busqueda">
+    <img src="https://i.imgur.com/8kMZDc7.png" alt="path">
+    <p>en esta ventana, selecciona "Path" y después "editar"</p>
+    <img src="https://i.imgur.com/DRQsgQF.png" alt="newpath">
+    <p>en esta parte, selecciona "Nuevo" y "Examinar" <br>
+    deberás buscar la carpeta C:\msys64\ucrt64\bin <br>
+    pulsa "Aceptar" hasta salir de la configuración</p>
+    <p>para confirmar que se instaló correctamente, en una nueva terminal escribe el commando "gcc --version"</p>
+    <img src="https://i.imgur.com/6o9Z3pI.png" alt="comando"><br><br>
+
+    <h2 id="usage">modo de uso</h2>
+    <p>ahora que tenemos MinGW instalado, podemos compilar códigos de C. para hacer un hola mundo, abre una nueva terminal, y en la carpeta de tu preferencia escribe "vi helloworld.c" y copia el siguiente código.</p>
+    <img src="https://i.imgur.com/WBXOGPA.png" alt="code">
+    <p>para salir de la edición del código, pulsa ESC y escribe :x <br>
+    ahora escribe el comando "gcc helloworld.c" <br>
+    esto creará un nuevo archivo ejecutable, llamado "a.exe" <br>
+    para ejecutar este archivo, escribe "./a.exe" <br>
+    si lo hiciste bien, se debería mostrar el mensaje de "hello acm world!"</p>
+    <img src="https://i.imgur.com/2wILjhF.png" alt="ejecucion">
+    <p>ahora puedes comenzar a crear y compilar tus programas de C!</p>
+</body>
+</html>
